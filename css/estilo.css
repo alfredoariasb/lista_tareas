@@ -1,0 +1,83 @@
+body {
+margin: 0;
+background-image: url(hoja.png)
+
+}
+
+.cabeza1 {
+	text-align: center;
+	background: #9E9A9A;
+
+}
+
+.seccion_btn {
+	text-align: center;
+	
+}
+
+.campo {
+	width: 50%;
+	height: 30px;
+	box-shadow: 1px 1px 1px;
+}
+
+#btn_tarea {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.cuerpo {
+	text-align: center;
+	height: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.cuerpo, h4{
+	font-size: 30px;
+}
+
+#grupo1, #grupo2, #grupo3{
+	border: 1px solid blue;
+	box-sizing:border-box;
+	width: 100%;
+}
+
+.task1{
+	box-shadow: 3px 4px 2px;
+	background: #F95E3F;
+
+}
+
+.task_contents{
+	background: rgba(0, 255, 0, 0.2);
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-left: 5px;
+	text-align: center;
+	margin-right: 8px;
+
+}
+
+
+.task2{
+	box-shadow: 3px 4px 2px;
+	background: #F9BA3F;
+
+}
+
+.task3{
+	box-shadow: 3px 4px 2px;
+	background: #3E5436;
+	text-shadow: 1px 1px #FFFFFF;
+}
